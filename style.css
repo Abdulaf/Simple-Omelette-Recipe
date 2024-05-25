@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+body{
+    background-color: #f3e5d7;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height:2000px;
+    width: 736px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+
+}
+.img{
+    height: 300px;
+    width: 656px;
+    background-image: url(omelette.jpeg);
+    background-size: cover;
+    border-radius: 8px;
+    margin: 40px 40px 32px 40px;
+}
+.box1{
+    width:656px ;
+    height: 112px;
+    margin-left: 40px;
+    margin-bottom: 32px;
+h1{
+    font-size: 3rem;;
+}
+ p{
+    margin-top: 15px;
+   }
+}
+.box2{
+    height:180px;
+    width: 600px;
+    background-color:#fff7fb ;
+    margin:0px 40px 0px 40px;
+    padding: 28px 28px;
+    
+}
+#id1{
+    color:#5f564d;
+    font-weight:bolder;
+    font-size: 1.3rem;
+    a{
+      font-weight: lighter;  
+    }
+}
+.box3{
+    height:204px;
+    width:656px;
+    font-size: 1.3rem;
+    margin:0px 40px 0px 40px;
+    color: #5f564d; 
+    h1{
+    padding-bottom:24px
+    }
+}
+.box4{
+    width: 656px;
+    margin: 32px 40px 0px 0px;
+
+}
+#id2{color:#5f564d;
+    font-weight:bolder;
+    a{
+      font-weight: lighter;  
+    }
+}
+.box5{
+    height: 268px;
+    width: 656px;
+    margin-top: 32px;
+    a{
+       font-weight:bolder;
+       font-size:1.3rem;
+       color:#854632 ; 
+    }
+}
